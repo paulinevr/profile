@@ -1,0 +1,140 @@
+
+body {
+  background-image: url("images/carré.avif");
+}
+h1 {
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 2.4;
+  font-weight: 900;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Blinker', sans-serif;
+  line-height: -2;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+p {
+  color: #000000;
+  font-family: 'Blinker', sans-serif;
+  text-align: center;
+}
+
+a {
+  font-family: 'Blinker', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+
+.white-card {
+  background-color: whitesmoke;
+  border: 1000px;
+  border-color: black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 30 auto;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.white-card > ul > li > a > i {
+  font-size: 100px;
+  color: black;
+}
+
+.white-card > ul > li > a > i:hover {
+  color: rgb(57, 0, 179);
+}
+
+.white-card li {
+  display: inline;
+  color: #020202;
+  letter-spacing: 50px;
+}
+
+#line {
+  width: 400px;
+}
+
+#picture {
+  width: 400px;
+}
+
+.description {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#button {
+  display: inline-block;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  padding:15px;
+  margin-top: 17px;
+  min-height:30px;
+  min-width: 120px;
+  margin-bottom: 20px;
+}
+
+#button:hover {
+  color: whitesmoke;
+  background-color: rgb(57, 0, 179);
+}
+
+
+@media (max-width: 750px) {
+  .white-card {
+    width: 500px;
+  }
+  #picture {
+    width: 300px;
+  }
+  .description {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .white-card {
+    width: 400px;
+  }
+  #picture {
+    width: 300px;
+  }
+  .description {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .white-card {
+    width: 300px;
+  }
+  #picture {
+    width: 200px;
+  }
+  .description {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+}
